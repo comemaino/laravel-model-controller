@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ddd;
+}
+
+.red {
+  background-color: #f66;
+}
+
+.yellow {
+  background-color: #fc0;
+}
+
+.green {
+  background-color: #5f8;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container h1 {
+  margin: 1rem 0 -1rem;
+  width: 100%;
+  color: #f66;
+  text-align: justify;
+}
+
+.container h1:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.card {
+  margin: 1rem 0;
+  padding: 0.25rem;
+  width: calc(20% - 1rem);
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card * {
+  margin-bottom: 0.5rem;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+}
+
+.card h5 {
+  color: #777;
+}
+
+.card .year {
+  font-size: 0.8rem;
+}
+
+.card .rating {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  aspect-ratio: 1;
+  display: inline-block;
+  margin-top: auto;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  align-self: center;
+  text-align: center;
+}
+
