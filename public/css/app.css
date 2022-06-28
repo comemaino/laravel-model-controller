@@ -11,15 +11,15 @@ body {
 }
 
 .red {
-  background-color: #f66;
+  background-color: rgba(255, 102, 102, 0.3333333333);
 }
 
 .yellow {
-  background-color: #fc0;
+  background-color: rgba(255, 204, 0, 0.3333333333);
 }
 
 .green {
-  background-color: #5f8;
+  background-color: rgba(85, 255, 136, 0.3333333333);
 }
 
 .container {
@@ -71,15 +71,13 @@ body {
 }
 
 .card .rating {
+  margin-top: auto;
+  padding: 0.5rem;
+  border-radius: 50%;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   aspect-ratio: 1;
-  display: inline-block;
-  margin-top: auto;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 50%;
   align-self: center;
   text-align: center;
 }
